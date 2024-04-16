@@ -5,7 +5,6 @@ using namespace std;
 using namespace cv;
 
 int main() {
-    // Загрузка изображения
     Mat image = imread("C:/Users/Nuta/Documents/Open CV/Практика 2/2.png", IMREAD_GRAYSCALE);
     if (image.empty()) {
         cout << "Error" << endl;
